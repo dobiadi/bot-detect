@@ -1,0 +1,37 @@
+{
+  "name": "botdetect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/botdetect.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "lint": "eslint . --ext ts"
+  },
+  "files": [
+    "dist/botdetect.min.js",
+    "dist/botdetect-clean.min.js"
+  ],
+  "author": "Adam Dobos",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.189",
+    "@types/chrome": "^0.0.188",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "browserslist": "^4.20.3",
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2",
+    "swc-loader": "^0.2.1",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.22.5",
+    "core-js-pure": "^3.22.8",
+    "promise-polyfill": "^8.2.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
